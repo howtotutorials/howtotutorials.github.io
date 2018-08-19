@@ -1,6 +1,5 @@
 
-.headings {
-     font-family: 'Great Vibes';font-size: 22px;
+h1 { font-family: 'Great Vibes' , arial, serif;
     color: #ffffff;
     font-size: 1000%;
     text-align: center;
@@ -8,6 +7,12 @@
 }
 
 
+h2 { font-family: 'Great Vibes' , arial, serif;
+    color: #ffffff;
+    font-size: 1000%;
+    text-align: center;
+   
+}
 
 
 .gallery
@@ -28,7 +33,6 @@
 @media only screen and (min-width: 400px) {
     body.homepage { 
        background-image: url(homewireframe.png);
-         background-repeat: no-repeat;
     }
 }
 
@@ -71,8 +75,6 @@
     background-color: #ffffff;
     overflow: hidden;
 }
-
-
 
 /* links in navigation bar */
 .topnav a {
@@ -249,8 +251,8 @@ div.fontsize {
  /* Responsive homepage. Change backdrop */
 body.homepage {
     @media only screen and (max-width:)
+    background-repeat: no-repeat;
     background-image: url(paintedgirl%20-%20Copy.jpg); 
-     background-repeat: no-repeat;
 }
 
 
@@ -271,7 +273,7 @@ margin-right: auto;
 
     /* About page writing box responsive on small screens */
 .body {
-  position: relative;
+  position: fixed;
   padding: 10px;
   width: 78%;
   background: #3e3e3e;
