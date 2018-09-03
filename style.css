@@ -33,6 +33,8 @@ h2 { font-family: 'Great Vibes' , arial, serif;
 @media only screen and (min-width: 400px) {
     body.homepage { 
        background-image: url(homewireframe.png);
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
